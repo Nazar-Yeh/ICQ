@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="378.0" prefWidth="722.0" style="-fx-background-color: #FFFFFF;" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.Client.Controllers.LogInCont">
+   <children>
+      <Pane layoutX="138.0" layoutY="14.0" prefHeight="170.0" prefWidth="456.0">
+         <children>
+            <ImageView fitHeight="74.0" fitWidth="83.0" layoutX="56.0" layoutY="46.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/MainIcon.png" />
+               </image></ImageView>
+            <Label layoutX="195.0" layoutY="66.0" prefHeight="25.0" prefWidth="182.0" text="YehTelegram" textFill="#333333">
+               <font>
+                  <Font name="Century Gothic" size="27.0" />
+               </font>
+            </Label>
+            <Line endX="186.0" endY="1.52587890625E-5" layoutX="270.0" layoutY="135.0" startX="-270.0" startY="1.52587890625E-5" />
+         </children>
+      </Pane>
+      <TextField fx:id="IP_id" layoutX="374.0" layoutY="185.0" prefHeight="26.0" prefWidth="193.0" style="-fx-background-color: #DCDCDC;" />
+      <TextField fx:id="User_name_id" layoutX="373.0" layoutY="234.0" prefHeight="26.0" prefWidth="194.0" style="-fx-background-color: #DCDCDC;" />
+      <Label layoutX="172.0" layoutY="189.0" prefHeight="18.0" prefWidth="150.0" text="IP-адреса сервера" textFill="#333333">
+         <font>
+            <Font name="Century Gothic" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="172.0" layoutY="238.0" prefHeight="18.0" prefWidth="125.0" text="Ім'я користувача" textFill="#333333">
+         <font>
+            <Font name="Century Gothic" size="14.0" />
+         </font>
+      </Label>
+      <Button fx:id="Next_Id" layoutX="594.0" layoutY="321.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="112.0" style="-fx-background-color: #00A884;" text="Далі" textFill="#333333" />
+   </children>
+</AnchorPane>
